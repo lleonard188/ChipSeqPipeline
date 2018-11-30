@@ -1,0 +1,5 @@
+{
+    "helloUncompressGZ.UncompressGZ.sampleName":"Sample1",
+    "helloUncompressGZ.UncompressGZ.inputGZ":"${this.compressed_file}",
+    "helloUncompressGZ.UncompressGZ.docker":"gcr.io/docker-215501/associationstudy:latest"
+}
