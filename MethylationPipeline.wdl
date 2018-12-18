@@ -4,7 +4,6 @@ workflow helloMethylationPipeline {
 
 task MethylationPipeline {
   String sampleName
-  File inputData
   String docker
   command {
   }
