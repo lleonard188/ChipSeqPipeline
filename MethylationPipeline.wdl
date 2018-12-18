@@ -4,12 +4,12 @@ workflow helloMethylationPipeline {
 
 task MethylationPipeline {
   String sampleName
-  File input
+  File inputData
   String docker
   command {
   }
   output {
-    File output = "${sampleName}.wig"
+    File outputData = "${sampleName}.wig"
   }
   runtime {
 		docker: docker
