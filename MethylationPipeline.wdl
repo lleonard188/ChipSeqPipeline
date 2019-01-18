@@ -6,6 +6,7 @@ task MethylationPipeline {
   String sampleName
   String docker
   command {
+    echo 'Hello'
   }
   output {
     File outputData = "${sampleName}.wig"
