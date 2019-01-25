@@ -9,7 +9,6 @@ task MethylationPipeline {
     echo "hello world"
   }
   output {
-    File outputData = "${sampleName}.wig"
   }
   runtime {
 		docker: docker
