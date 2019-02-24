@@ -5,14 +5,14 @@ workflow helloMethylationPipeline {
 task MethylationPipeline {
   String sampleName
   String docker
-  File inputFasta
+  File inputFasta   
   command {
-    echo "hello world"
+    fastqc_v0.11.8.zip/fastqc ${inputFasta}
   }
   output {
   }
   runtime {
-    docker: docker
+		docker: docker
     memory: "10G"
     disks: "local-disk 1000 SSD"
     bootDiskSizeGb: 500
