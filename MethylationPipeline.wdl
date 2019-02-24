@@ -5,6 +5,7 @@ workflow helloMethylationPipeline {
 task MethylationPipeline {
   String sampleName
   String docker
+  File inputFasta
   command {
     echo "hello world"
   }
