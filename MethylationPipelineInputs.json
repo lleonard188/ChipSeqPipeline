@@ -1,5 +1,5 @@
 {
     "helloMethylationPipeline.MethylationPipeline.sampleName":"Sample1",
     "helloMethylationPipeline.MethylationPipeline.docker":"gcr.io/docker-215501/methylation-pipeline",
-    "helloMethylationPipeline.MethylationPipeline.inputFasta":"SRR3997871_1.fastq"
+    "helloMethylationPipeline.MethylationPipeline.inputFasta":"Dropbox/Programming/MethylationPipeline/SRR3997871_1.fastq"
 }
