@@ -7,7 +7,8 @@ task MethylationPipeline {
   String docker
   File inputFasta   
   command {
-    fastqc_v0.11.8/fastqc ${inputFasta}
+    chmod 755 FastQC/fastqc
+    FastQC/fastqc ${inputFasta}
   }
   output {
   }
