@@ -14,8 +14,5 @@ task MethylationPipeline {
   }
   runtime {
 		docker: docker
-    memory: "10G"
-    disks: "local-disk 1000 SSD"
-    bootDiskSizeGb: 500
   }
 }
