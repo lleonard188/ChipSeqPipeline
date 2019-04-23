@@ -1,8 +1,8 @@
-workflow helloMethylationPipeline {
-  call MethylationPipeline
+workflow helloChipSeqPipeline {
+  call ChipSeqPipeline
 }
 
-task MethylationPipeline {
+task ChipSeqPipeline {
   String sampleName
   String docker
   File inputFasta   
