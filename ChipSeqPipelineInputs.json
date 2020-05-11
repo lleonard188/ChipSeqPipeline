@@ -1,5 +1,5 @@
 {
     "helloChipSeqPipeline.ChipSeqPipeline.sampleName":"Sample1",
-    "helloChipSeqPipeline.ChipSeqPipeline.docker":"gcr.io/docker-215501/methylation-pipeline",
+    "helloChipSeqPipeline.ChipSeqPipeline.docker":"gcr.io/docker-215501/chipseq-pipeline",
     "helloChipSeqPipeline.ChipSeqPipeline.inputFasta":"/home/len/sratoolkit.2.9.2-ubuntu64/SRR3997871_1.fastq"
 }
