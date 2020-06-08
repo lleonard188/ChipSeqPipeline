@@ -14,6 +14,5 @@ task ChipSeqPipeline {
   }
   runtime {
 		docker: docker
-    disks: "local-disk 100 SSD"
   }
 }
